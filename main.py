@@ -17,7 +17,7 @@ app = FastAPI(title="Telugu Story Emotion Detection API")
 
 # Load model and assets once
 try:
-    model = load_model(MODEL_PATH)
+    model = load_model(MODEL_PATH, compile=False)
     with open(TOKENIZER_PATH, "rb") as f:
         tokenizer = pickle.load(f)
     with open(MLB_PATH, "rb") as f:
