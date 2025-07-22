@@ -1,6 +1,6 @@
 fastapi==0.88.0
 uvicorn==0.20.0
-tensorflow==2.10.1
+tensorflow-cpu==2.10.1
 pandas==1.5.3
 scikit-learn==1.2.2
 indic-transliteration==2.3.43
